@@ -43,8 +43,10 @@ class MyPage extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
               child: Text("Prosenjit Roy", style: TextStyle(color: Colors.black), ),
             ),
-            Icon(Icons.person, size: 50, color: Colors.amberAccent,)
-
+            Icon(Icons.person, size: 50, color: Colors.amberAccent,),
+            Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYux-JdpngpNHmJSEj_ML8yw_16FxZ2lpvF1W_cuGmlQ&s",
+            height: 200,
+                width: 100,)
           ],
         ),
       ),

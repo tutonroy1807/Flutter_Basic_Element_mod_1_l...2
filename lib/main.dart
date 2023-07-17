@@ -42,7 +42,9 @@ class MyPage extends StatelessWidget {
             // alignment: Alignment.center,
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
               child: Text("Prosenjit Roy", style: TextStyle(color: Colors.black), ),
-            )
+            ),
+            Icon(Icons.person, size: 50, color: Colors.amberAccent,)
+
           ],
         ),
       ),

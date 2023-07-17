@@ -46,7 +46,16 @@ class MyPage extends StatelessWidget {
             Icon(Icons.person, size: 50, color: Colors.amberAccent,),
             Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYux-JdpngpNHmJSEj_ML8yw_16FxZ2lpvF1W_cuGmlQ&s",
             height: 200,
-                width: 100,)
+                width: 100,),
+           // Image.asset("Images/download.jpg")
+            // fit: Boxfit.Container)
+
+
+            ElevatedButton(onPressed: (){
+              print("Add Something");
+            }, child: Icon(Icons.login, color: Colors.red, )
+            ),
+
           ],
         ),
       ),
